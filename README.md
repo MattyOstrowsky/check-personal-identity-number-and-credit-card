@@ -1,1 +1,0 @@
-# Check personal identity number and credit card
