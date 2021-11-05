@@ -4,13 +4,13 @@
 * [General info](#general-info)
 * [Installation and run](#Installation-and-run)
 * [Basic usages](#Basic-usages)
-
-## General info
 ___
+## General info
+
 Simple CLI script to  check your date of birth and validate
 personal identity or validate credit card number.
 ## Installation and run
-___
+
 1. Git clone repository:
 ```bash
 $ git clone https://github.com/gunater/check-personal-identity-number-and-credit-card.git
@@ -32,7 +32,6 @@ and then run script with an argument `--help`:
 $ python3 checker.py --help
 ```
 ## Basic usages
-___
 ### 1. Identity number
 to validate your identity number and check your date of birth, type with example identity number:
 ```bash
