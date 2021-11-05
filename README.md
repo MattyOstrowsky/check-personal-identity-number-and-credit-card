@@ -1,10 +1,10 @@
-# Check personal identity and credit card number 
+# **Check personal identity and credit card number**
 ![alt text](https://img.icons8.com/external-justicon-lineal-color-justicon/452/external-wallet-ecommerce-justicon-lineal-color-justicon.png)
 ## Table of contents
 * [General info](#general-info)
 * [Installation and run](#Installation-and-run)
 * [Basic usages](#Basic-usages)
-___
+
 ## General info
 
 Simple CLI script to  check your date of birth and validate
