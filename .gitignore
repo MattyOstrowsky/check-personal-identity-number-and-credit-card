@@ -4,3 +4,5 @@
 check_personal_identity_number_and_credit_card/__pycache__/
 
 tests/__pycache__/
+.venv/
+/tests/.pytest_cache/

@@ -5,7 +5,6 @@ from check_personal_identity_number_and_credit_card.check_Pesel import (
     pesel,
 )
 
-
 correct_pesel = ["53052486359", "94120679457", "01240316649"]
 too_long_pesel = "5305248635923"
 too_short_pesel = "530524863"

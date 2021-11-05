@@ -14,16 +14,16 @@ def valid_pesel(pesel: str) -> bool:
 def check_control_sum_pesel(pesel: str) -> bool:
     pesel_list = list(str(pesel))
     control = (
-        int(pesel_list[0]) * 9
-        + int(pesel_list[1]) * 7
-        + int(pesel_list[2]) * 3
-        + int(pesel_list[3]) * 1
-        + int(pesel_list[4]) * 9
-        + int(pesel_list[5]) * 7
-        + int(pesel_list[6]) * 3
-        + int(pesel_list[7]) * 1
-        + int(pesel_list[8]) * 9
-        + int(pesel_list[9]) * 7
+            int(pesel_list[0]) * 9
+            + int(pesel_list[1]) * 7
+            + int(pesel_list[2]) * 3
+            + int(pesel_list[3]) * 1
+            + int(pesel_list[4]) * 9
+            + int(pesel_list[5]) * 7
+            + int(pesel_list[6]) * 3
+            + int(pesel_list[7]) * 1
+            + int(pesel_list[8]) * 9
+            + int(pesel_list[9]) * 7
     )
     if control % 10 != int(pesel_list[10]):
         return False
@@ -31,8 +31,10 @@ def check_control_sum_pesel(pesel: str) -> bool:
         return True
 
 
-def check_age(pesel: str) -> int:
+def check_age(pesel: str) -> (str, int):
     pesel_list = list(str(pesel))
+    age = 0
+    month = 0
     if int(pesel_list[2] + pesel_list[3]) // 20 == 1:
         age = 2000
         month = int(pesel_list[2] + pesel_list[3]) - 20
@@ -70,11 +72,10 @@ def pesel(pesel: str):
         age, mouth = check_age(pesel)
         month_dict = dict_of_month()
         date = (
-            str(pesel_list[4] + pesel_list[5])
-            + " "
-            + str(month_dict[str(mouth)])
-            + " "
-            + str(age + int(pesel_list[0] + pesel_list[1]))
+                str(pesel_list[4] + pesel_list[5])
+                + " "
+                + str(month_dict[str(mouth)])
+                + " "
+                + str(age + int(pesel_list[0] + pesel_list[1]))
         )
-
         return date, True
