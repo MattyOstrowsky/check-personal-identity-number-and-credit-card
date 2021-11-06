@@ -1,9 +1,13 @@
 # **Check personal identity and credit card number**
-![alt text](https://img.icons8.com/external-justicon-lineal-color-justicon/452/external-wallet-ecommerce-justicon-lineal-color-justicon.png)
+
+<img align="right" width="33%" src="https://img.icons8.com/external-justicon-lineal-color-justicon/452/external-wallet-ecommerce-justicon-lineal-color-justicon.png">
+
 ## Table of contents
 * [General info](#general-info)
-* [Installation and run](#Installation-and-run)
-* [Basic usages](#Basic-usages)
+* [Installation and run](#installation-and-run)
+* [Basic usages](#basic-usages)
+* [License](#license)
+
 
 ## General info
 
@@ -18,6 +22,7 @@ $ git clone https://github.com/gunater/check-personal-identity-number-and-credit
 2. Install the necessary python dependencies you can use `pipenv`:
 ```bash
 $ pipenv install
+$ piipenv shell
 ```
 or you can install from requirements.txt with `pip`:
 ```bash
@@ -58,3 +63,5 @@ if you need more information type:
 ```bash
 $ python3 checker.py creditcard --help
 ```
+## License
+All code is licensed under an MIT license. This allows you to re-use the code freely, remixed in both commercial and non-commercial projects. The only requirement is to include the same license when distributing.
