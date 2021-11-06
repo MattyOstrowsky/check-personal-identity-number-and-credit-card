@@ -4,7 +4,8 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Installation and run](#installation-and-run)
+* [Installation](#installation)
+* [How to run it](#how-to-run-it)
 * [Basic usages](#basic-usages)
 * [License](#license)
 
@@ -13,7 +14,7 @@
 
 Simple CLI script to  check your date of birth and validate
 personal identity or validate credit card number.
-## Installation and run
+## Installation
 
 1. Git clone repository:
 ```bash
@@ -28,7 +29,8 @@ or you can install from requirements.txt with `pip`:
 ```bash
 $ pip install -r requirements.txt
 ```
-3. to run the script, go to the main directory:
+## How to run it
+To run the script, go to the main directory:
 ```bash
 $ cd check_personal_identity_number_and_credit_card/
 ```
